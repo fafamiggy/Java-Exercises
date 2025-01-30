@@ -8,7 +8,7 @@ import javax.swing.*;
 
 /**
  *
- * @author Tomasino Farms
+ * @author Miguel Desiderio
  */
 public class Salary {
     public static void main(String[] args) {
