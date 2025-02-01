@@ -13,9 +13,9 @@ import javax.swing.*;
 public class Salary {
     public static void main(String[] args) {
         // Request user input with JOptionPane
-        int experienceYears = Integer.parseInt(JOptionPane.showInputDialog("Enter years of experience:"));
-        int hoursPerWeek = Integer.parseInt(JOptionPane.showInputDialog("Enter hours worked per week:"));
-        double hourlyWage = Double.parseDouble(JOptionPane.showInputDialog("Enter hourly wage:"));
+        int experienceYears = Integer.parseInt(JOptionPane.showInputDialog("Put your years of experience:"));
+        int hoursPerWeek = Integer.parseInt(JOptionPane.showInputDialog("Put your hours worked per week:"));
+        double hourlyWage = Double.parseDouble(JOptionPane.showInputDialog("Put your hourly wage:"));
 
         // Calculate gross salary and apply bonus if needed
         double salary = hoursPerWeek * hourlyWage * 4; // Assuming 4 weeks per month
